@@ -28,8 +28,8 @@ from __future__ import (absolute_import, division, print_function,
 import numpy
 from matplotlib import pyplot
 
-import pycwt as wavelet
-from pycwt.helpers import find
+import pycwt_hima as wavelet
+from pycwt_hima.helpers import find
 
 from dataset import Dataset
 

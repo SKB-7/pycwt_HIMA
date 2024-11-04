@@ -28,9 +28,9 @@ from __future__ import (absolute_import, division, print_function,
 
 import numpy as np
 import matplotlib.pyplot as plt
-import pycwt as wavelet
+import pycwt_hima as wavelet
 
-from pycwt.helpers import find
+from pycwt_hima.helpers import find
 from matplotlib.image import NonUniformImage
 
 data1 = dict(name='Arctic Oscillation', nick='AO', file='jao.dat')

@@ -11,8 +11,8 @@ from __future__ import division
 import numpy
 from matplotlib import pyplot
 
-import pycwt as wavelet
-from pycwt.helpers import find
+import pycwt_hima as wavelet
+from pycwt_hima.helpers import find
 
 # Then, we load the dataset and define some data related parameters. In this
 # case, the first 19 lines of the data file contain meta-data, that we ignore,
