@@ -574,7 +574,7 @@ def wct_significance(al1, al2, dt, dj, s0, J, significance_level=0.95,
         # analysis is performed using the wavelet's default parameters.
         aa = np.round(np.arctanh(np.array([al1, al2]) * 4))
         aa = np.abs(aa) + 0.5 * (aa < 0)
-        cache_file = 'wct_sig_{:0.5f}_{:0.5f}_{:0.5f}_{:0.5f}_{:0.5f}_{}'\
+        cache_file = 'wct_sig_{:0.5f}_{:0.5f}_{:0.5f}_{:0.5f}_{:d}_{}'\
             .format(aa[0], aa[1], dj, s0 / dt, J, wavelet.name)
         cache_dir = get_cache_dir()
         try:
